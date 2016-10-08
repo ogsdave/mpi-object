@@ -1,0 +1,6 @@
+package MpiObject;
+import "MpiObject.Item.proto";
+
+message ObjectArray{
+    repeated Item items=1;
+}

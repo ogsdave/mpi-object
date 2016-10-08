@@ -1,0 +1,7 @@
+package MpiObject;
+
+import "Sphere.Atom.proto";
+
+message Item{
+	required Sphere.Atom atom=1;
+}
