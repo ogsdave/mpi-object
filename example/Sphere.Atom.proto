@@ -1,0 +1,9 @@
+package Sphere;
+
+import "Sphere.SurfacePoint.proto";
+
+message Atom{
+   required double seq=1;
+   required string name=2;
+   repeated SurfacePoint points=3;
+}

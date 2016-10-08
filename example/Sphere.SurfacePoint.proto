@@ -1,0 +1,6 @@
+package Sphere;
+
+message SurfacePoint{
+   optional int32 x=1;
+   required string flag=2;
+}
